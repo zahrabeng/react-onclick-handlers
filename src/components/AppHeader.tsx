@@ -1,5 +1,9 @@
-function AppHeader(): JSX.Element {
-  return <h1>Button click handler demos</h1>;
+interface AppHeaderProps {
+  title: string;
+}
+
+function AppHeader({ title }: AppHeaderProps): JSX.Element {
+  return <h1>{title}</h1>;
 }
 
 export default AppHeader;

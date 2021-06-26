@@ -1,4 +1,4 @@
-import AppHeader from './components/AppHeader';
+import AppHeader from "./components/AppHeader";
 import ButtonWithClickExampleA from "./components/ButtonWithClickExampleA";
 import ButtonWithClickExampleB from "./components/ButtonWithClickExampleB";
 import ButtonWithClickExampleC from "./components/ButtonWithClickExampleC";
@@ -10,7 +10,7 @@ import TestButton from "./components/TestButton";
 function App(): JSX.Element {
   return (
     <>
-      <AppHeader />
+      <AppHeader title={"React onClick button demos"} />
       <hr />
       <ButtonWithClickExampleA />
       <hr />
