@@ -1,4 +1,4 @@
-/* //TRYING ALL THE DIFFERENT FUNCTION METHODS WITH MY OWN MESSAGE. 
+//TRYING ALL THE DIFFERENT FUNCTION METHODS WITH MY OWN MESSAGE. 
 
 function TestButton(): JSX.Element {
   function handleClick(){
@@ -8,6 +8,8 @@ function TestButton(): JSX.Element {
 }
 
 export default TestButton;
+
+/* 
 --------------------------------
 
 function TestButton(): JSX.Element {
